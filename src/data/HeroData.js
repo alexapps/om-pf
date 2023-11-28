@@ -4,11 +4,10 @@ export const heroOne = {
 	topLine: {
 		text: 'Founded in 2012',
 	},
-	headline: "We've been in business for 9 years",
-	description: 'We have designed and implemented the best cloud security solutions',
-	buttonLabel: 'Find More',
+	headline: "жизненные уроки",
+	description: 'обстоятельства, застявляющие человека принимать решения отказаться от устаревших стереотипов',
 	imgStart: 'start',
-	img: './assets/svg/Deal.svg',
+	img: './assets/svg/sign-in-2-svgrepo-com.svg',
 	start: 'true',
 };
 
@@ -18,13 +17,13 @@ export const heroTwo = {
 	topLine: {
 		text: 'Designed & Developed',
 	},
-	headline: 'The best practices',
-	description: 'Our clients have had the best experience working with us',
+	headline: 'Пока не пройден этап и не усвоен урок',
+	description: 'человек так и будет "ходить по кругу" одних и тех же ситуаций - событий для его роста не будет',
 	buttonLabel: 'View Project',
 
 	linkTo: '/more',
 	imgStart: 'start',
-	img: './assets/svg/Connection.svg',
+	img: './assets/svg/teacher-showing-on-whiteboard-svgrepo-com.svg',
 	start: 'true',
 };
 
@@ -34,13 +33,13 @@ export const heroThree = {
 	topLine: {
 		text: 'Highly reputed brand',
 	},
-	headline: 'Why us? ',
+	headline: 'Развивая качества своих арканов ',
 	description:
-		'Our 9 year experience have allowed us to use the most innovative technologies and methodologies',
+		'человек быстрее находит себя, своё место в социуме, приходит к пониманию смысла своего существования',
 	buttonLabel: 'View Project',
 
 	linkTo: '/download',
 	imgStart: '',
-	img: './assets/svg/ChartUp.svg',
+	img: './assets/svg/award-prize-svgrepo-com.svg',
 	start: 'true',
 };

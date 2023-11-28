@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FaRProject, FaTimes } from 'react-icons/fa';
+import { FaTimes } from 'react-icons/fa';
 import { CgMenuRight } from 'react-icons/cg';
 import { IconContext } from 'react-icons';
 import {
@@ -38,7 +38,7 @@ const Navbar = () => {
 			scrollTo(id);
 		}
 
-		history.push(to);
+		history(to);
 		setShow(false);
 	};
 
@@ -48,7 +48,7 @@ const Navbar = () => {
 				<NavbarContainer>
 					<NavLogo to="/">
 						<NavIcon src="./assets/logo.png" alt="logo" />
-						Olga Numerologist
+						Olga Makarovskaja
 					</NavLogo>
 					<MobileIcon onClick={handleClick}>
 						{show ? <FaTimes /> : <CgMenuRight />}

@@ -1,48 +1,97 @@
 import React from 'react';
 
-import { BsFillShieldLockFill } from 'react-icons/bs';
-import { IoIosOptions } from 'react-icons/io';
-import { AiOutlineCloudUpload } from 'react-icons/ai';
-import { BiSupport, BiDollar } from 'react-icons/bi';
-import { GrHostMaintenance } from 'react-icons/gr';
+import { GrDiamond } from "react-icons/gr";
+import { FaChild } from "react-icons/fa";
+import { GiCharacter } from "react-icons/gi";
+import { GiSpikedFence } from "react-icons/gi";
+import { PiTarget } from "react-icons/pi";
+import { FaSackDollar } from "react-icons/fa6";
+import { FcServices } from "react-icons/fc";
+import { FcIdea } from "react-icons/fc";
+import { GiAcorn } from "react-icons/gi";
+import { GiAnvilImpact } from "react-icons/gi";
+import { GiAirplaneArrival } from "react-icons/gi";
+import { GiAirplaneDeparture } from "react-icons/gi";
 const iconStyle = (Icon) => <Icon size="3rem" color="#0f0f0f" />;
 
 export const featuresData = [
 	{
-		name: 'Best Security',
-		description: 'We offer the best data security to our clients, which makes us stand out',
-		icon: iconStyle(BsFillShieldLockFill),
+		name: 'Психологический портрет',
+		description: 'Сформируем описание внутреннего склада и возможных поступков в определенных значимых обстоятельствах',
+		icon: iconStyle(GrDiamond),
 		imgClass: 'one',
 	},
 	{
-		name: 'Ease of Use',
-		description: 'Our system is easy to use and integrate',
-		icon: iconStyle(IoIosOptions),
+		name: 'Детство',
+		description: 'Заглянем в основные этапы формирования Вас как личности и человека',
+		icon: iconStyle(FaChild),
 		imgClass: 'two',
 	},
 	{
-		name: 'Maintenance',
-		description: 'Our code is written in highest standards, which makes it highly sustainable',
-		icon: iconStyle(GrHostMaintenance),
+		name: 'Характер',
+		description: 'Определим Ваши сильные и слабые стороны',
+		icon: iconStyle(GiCharacter),
 		imgClass: 'three',
 	},
 	{
-		name: '24/7 Support',
-		description: 'Our team is available at all times in case you need us',
-		icon: iconStyle(BiSupport),
+		name: 'Точка препятствия',
+		description: '',
+		icon: iconStyle(GiSpikedFence),
 		imgClass: 'four',
 	},
 	{
-		name: 'Price',
-		description: 'We offer the highest value/cost ratio',
-		icon: iconStyle(BiDollar),
+		name: 'Устремления человека',
+		description: '',
+		icon: iconStyle(FaSackDollar),
 		imgClass: 'five',
 	},
 	{
-		name: 'Scalable',
+		name: 'Социальная задача',
 		description:
-			'Our servers are located all over the world, therefore improving scalability and speed ',
-		icon: iconStyle(AiOutlineCloudUpload),
+			'',
+		icon: iconStyle(PiTarget),
 		imgClass: 'six',
+	},
+	{
+		name: 'Призвание',
+		description:
+			'Выясним где "заложены" большие деньги',
+		icon: iconStyle(FcServices),
+		imgClass: 'seven',
+	},
+	{
+		name: 'Духовное призвание / Хобби',
+		description:
+			'',
+		icon: iconStyle(FcIdea),
+		imgClass: 'eight',
+	},
+	{
+		name: 'Зона комфорта',
+		description:
+			'',
+		icon: iconStyle(GiAcorn),
+		imgClass: 'nine',
+	},
+	{
+		name: 'Инструменты достижения цели',
+		description:
+			'',
+		icon: iconStyle(GiAnvilImpact),
+		imgClass: 'ten',
+	},
+	{
+		name: 'Отрицательные слои кармы',
+		description:
+			'',
+		icon: iconStyle(GiAirplaneArrival),
+		imgClass: 'eleven',
+	},
+	{
+		name: 'Положительные слои кармы',
+		description:
+			'',
+		icon: iconStyle(GiAirplaneDeparture),
+		imgClass: 'twelve',
 	},
 ];

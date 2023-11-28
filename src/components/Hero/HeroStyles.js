@@ -23,18 +23,20 @@ export const HeroText = styled.p`
 	margin-bottom: 35px;
 	font-size: clamp(0.9rem, 1.5vw, 1.3rem);
 	line-height: 24px;
-	text-align: center;
+	text-align: right;
 	letter-spacing: 2px;
 	color: #fff;
 `;
 
-export const ButtonWrapper = styled.div`
-	width: 100%;
-	display: flex;
-	justify-content: center;
-	flex-flow: wrap;
-	gap: 0.5rem;
+export const HeroDescription = styled.div`
+    margin-bottom: 15px;
+	font-size: clamp(1rem, 1.5vw, 1.3rem);
+	line-height: 24px;
+	text-align: left;
+	letter-spacing: 2px;
+	color: #fff;
 `;
+
 
 export const HeroButton = styled(Button)`
 	color: black;

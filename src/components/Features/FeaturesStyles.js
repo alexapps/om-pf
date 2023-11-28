@@ -50,6 +50,7 @@ export const FeatureImageWrapper = styled.div`
 	padding: 30px;
 `;
 export const FeatureName = styled.h3`
+text-align: center;
 	font-weight: 600;
 	font-size: 1.3rem;
 	letter-spacing: 2px;

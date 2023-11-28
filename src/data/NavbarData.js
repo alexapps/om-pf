@@ -7,9 +7,5 @@ export const data = [
 	{
 		to: '/pricing',
 		text: 'Pricing',
-	},
-	{
-		to: '/signup',
-		text: 'Contact',
-	},
+	}
 ];

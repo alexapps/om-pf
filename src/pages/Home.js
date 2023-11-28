@@ -4,6 +4,7 @@ import { Content } from '../components/Content/Content';
 import Carousel from '../components/Carousel/Carousel';
 import Features from "../components/Features/Features";
 import { heroOne, heroTwo, heroThree } from '../data/HeroData';
+import Footer from "../components/Footer/Footer";
 
 const Home = () => {
     return <>
@@ -13,6 +14,7 @@ const Home = () => {
 			<Content {...heroTwo} />
 			<Content {...heroThree} />
             <Carousel />
+            <Footer />
     </> 
 };
 
